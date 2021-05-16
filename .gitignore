@@ -138,3 +138,7 @@ cython_debug/
 
 #virtualEnv
 pdfTools/
+
+#docx and pdf files
+*.docx
+*.pdf
