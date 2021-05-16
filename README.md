@@ -1,4 +1,4 @@
-# :bulb: What's "pyPdfTools"?
+# :bulb: What's "pdfTools"?
 It's a python script that allows you to:
 * Convert `.docx` files to `.pdf`;
 * Merge `.pdf` files;
@@ -6,7 +6,7 @@ It's a python script that allows you to:
 
 pyPdfTools use **multiproccessings** for convert files to be faster :zap: 
 
-# :question: How to use "pyPdfTools"
+# :question: How to use "pdfTools"
 
 ## :pushpin: From executable:
 * Windows:
