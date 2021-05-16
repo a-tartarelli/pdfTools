@@ -20,7 +20,7 @@ pyPdfTools use **multiproccessings** for convert files to be faster :zap:
   * cooming soon :hammer:
 
 ## :pushpin: From source code:
-1. `git clone https://github.com/a-tartarelli/pyPdfTools.git`
+1. `git clone https://github.com/a-tartarelli/pdfTools.git`
 2. `pip install -r requirements.txt`
 3. :heavy_exclamation_mark: Put `.docx` and `.pdf` files that you want convert or merge in the same folder as `main.py`
 4. Run `main.py`
