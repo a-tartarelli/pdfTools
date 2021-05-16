@@ -1,6 +1,6 @@
 # :bulb: What's "pyPdfTools"?
 It's a python script that allows you to:
-* Conver `.docx` files to `.pdf`;
+* Convert `.docx` files to `.pdf`;
 * Merge `.pdf` files;
 * More feature cooming soon :hammer:
 
