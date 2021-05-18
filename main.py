@@ -9,9 +9,9 @@ import sys
 
 def searchPDF():
     pdf = []
-    for (dirpath, dirnames, filenames) in walk(".\\"):
+    for (dirpath, dirnames, filenames) in walk("./"):
         for filename in filenames:
-            if(filename[-3:] == "pdf"):
+            if(filename[-4:] == ".pdf"):
                 pdf.append(filename)
     
     return pdf
@@ -19,7 +19,7 @@ def searchPDF():
 
 def searchWord():
     word = []
-    for (dirpath, dirnames, filenames) in walk(".\\"):
+    for (dirpath, dirnames, filenames) in walk("./"):
         for filename in filenames:
             if(filename[-4:] == "docx"):
                 word.append(filename)
@@ -108,6 +108,6 @@ if __name__ == '__main__':
             continue
 
         if(opt == 3):
-            exit()
+            sys.exit()
         else:
             print("That's not a valid choise!")

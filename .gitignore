@@ -138,7 +138,11 @@ cython_debug/
 
 #virtualEnv
 pdfTools/
+pdfToolsEnv/
 
 #docx and pdf files
 *.docx
 *.pdf
+
+#visualstudio stuff
+.vscode/
